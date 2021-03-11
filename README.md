@@ -9,7 +9,7 @@ I used the WordNetLemmatizer from NLTK to lemmatise the words. I didn't remove a
 
 ## Part 2
 
-Will use start tokens (<s1>,<s2>,<s3>,<s4>,<s5>) and end tokens (<e1>,<e2>,<e3>,<e4>,<e5>).
+Will use start tokens ("<s1>","<s2>","<s3>","<s4>","<s5>") and end tokens ("<e1>","<e2>","<e3>","<e4>","<e5>").
 These will hopefully encode the distance from the start and end of sentence. 
 We will also include and go past other named entities (NEs). I have decided that the actual names of other neighbouring entities themselves aren't relevant, so will have a generic <ne> tag for these. The <ne> tag can represent a named entity spanning more than one token. 
 
